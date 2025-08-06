@@ -1,7 +1,6 @@
 import string
 
 def contador(texto):
-    texto = texto.lower()
 
     for pontuacao in string.punctuation:
         texto = texto.replace(pontuacao, "")
